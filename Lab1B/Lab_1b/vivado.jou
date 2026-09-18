@@ -109,3 +109,23 @@ launch_simulation
 launch_simulation
 launch_simulation
 source lab_1b_top_level_tb.tcl
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+run 10 ms
+run 10 ns
+run all
+run 10 ns
+run 10 ns
+run 1000 ns
+run 10000 ns
+run 2 ms
+run 2 ms
+run 2 s
+run 200 ms
+run 10 ns
+run 10 ns
+relaunch_sim

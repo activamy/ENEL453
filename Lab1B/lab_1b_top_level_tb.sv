@@ -34,21 +34,20 @@ module lab_1b_top_level_tb();
         #(CLK_PERIOD/2);
         clk = 1;
         #(CLK_PERIOD/2);
-
     end
 
     // Test stimulus
     initial begin
         // Initialize inputs
         reset = 0;
+        switches_inputs = 16'h0000;
+        #(CLK_PERIOD / 4);
         
         // Apply Reset
         reset = 0;
         #RESET_DURATION;
         reset = 1;
         #CLK_PERIOD;
-        reset = 0;
-        #RESET_DURATION;
         
         // Test case 1:
         switches_inputs = 16'b0000_0000_0000_0000; #CLK_PERIOD;

@@ -20,7 +20,7 @@ module lab_1b_top_level (
         .sec_dig1(  switches_inputs[3:0]),
         .sec_dig2(  switches_inputs[7:4]),
         .min_dig1(  switches_inputs[11:8]),
-        .min_dig2(  switches_inputs[15:12]),
+        .min_dig2 (  switches_inputs[15:12]),
         .CA(        CA),
         .CB(        CB),
         .CC(        CC),
