@@ -19,7 +19,20 @@ module lab_1b_top_level (
         .reset(     reset),
         .sec_dig1(  switches_inputs[3:0]),
         .sec_dig2(  switches_inputs[7:4]),
-        .min_dgi1(  switches_inputs[11:8]),
+        .min_dig1(  switches_inputs[11:8]),
+        .min_dig2(  switches_inputs[15:12]),
+        .CA(        CA),
+        .CB(        CB),
+        .CC(        CC),
+        .CD(        CD),
+        .CE(        CE),
+        .CF(        CF),
+        .CG(        CG),
+        .DP(        DP),
+        .AN1(       AN1),
+        .AN2(       AN2),
+        .AN3(       AN3),
+        .AN4(       AN4)
     );
     
     // Instantiate components

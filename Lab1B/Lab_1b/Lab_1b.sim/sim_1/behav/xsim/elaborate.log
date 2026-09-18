@@ -5,5 +5,29 @@ Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:17]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
