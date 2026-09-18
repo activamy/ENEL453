@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/ENEL453/Lab1B/Lab_1b/Lab_1b.runs/impl_1/lab_1b_top_level.tcl"
+  variable script "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.runs/impl_1/lab_1b_top_level.tcl"
   variable category "vivado_impl"
 }
 
@@ -109,7 +109,7 @@ set rc [catch {
   set_param general.usePosixSpawnForFork 1
   set_param runs.launchOptions { -jobs 6  }
   open_checkpoint lab_1b_top_level_routed.dcp
-  set_property webtalk.parent_dir C:/ENEL453/Lab1B/Lab_1b/Lab_1b.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.cache/wt [current_project]
 set_property TOP lab_1b_top_level [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

@@ -161,3 +161,155 @@ Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 dismissDialog("Open Project"); // bk (Open Project Progress)
 // TclEventType: DG_GRAPH_GENERATED
 // Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 507 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // cP (dialog0)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run impl_1 -prev_step  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 80 MB. Current time: 9/17/26, 5:31:28 PM MDT
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Thu Sep 17 17:31:28 2026] Launched impl_1... Run output will be captured here: C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.runs/impl_1/runme.log 
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Generate Bitstream"); // bk (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 155 MB (+10669kb) [00:10:26]
+// PAPropertyPanels.initPanels (lab_1b_top_level.sv) elapsed time: 0.2s
+// Elapsed time: 66 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab_1b_top_level (lab_1b_top_level.sv)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab_1b_top_level (lab_1b_top_level.sv)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "lab_1b_top_level.sv"); // S (PAResourceOtoP.PAViews_CODE, Code)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab_1b.xdc]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab_1b.xdc]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "lab_1b.xdc"); // S (PAResourceOtoP.PAViews_CODE, Code (2))
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 40 seconds
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog1)
+// Elapsed time: 87 seconds
+selectCodeEditor("lab_1b_top_level.sv", 36, 59); // ae (lab_1b_top_level.sv)
+// Elapsed time: 13 seconds
+selectCodeEditor("lab_1b_top_level.sv", 192, 50); // ae (lab_1b_top_level.sv)
+// Elapsed time: 20 seconds
+selectCodeEditor("lab_1b_top_level.sv", 249, 116); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 3, 142); // ae (lab_1b_top_level.sv)
+// Elapsed time: 54 seconds
+selectCodeEditor("lab_1b_top_level.sv", 62, 138); // ae (lab_1b_top_level.sv)
+// Elapsed time: 112 seconds
+selectCodeEditor("lab_1b_top_level.sv", 340, 142); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 90, 77); // ae (lab_1b_top_level.sv)
+// Elapsed time: 122 seconds
+selectCodeEditor("lab_1b_top_level.sv", 323, 140); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 41, 136); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 355, 139); // ae (lab_1b_top_level.sv)
+// Elapsed time: 26 seconds
+selectCodeEditor("lab_1b_top_level.sv", 355, 139); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 443, 164); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 170, 158); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 313, 195); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 270, 180); // ae (lab_1b_top_level.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:39s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:41s
+// Elapsed time: 26 seconds
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_DOCK_Code"); // P.a (RDIResource.FrameControlsPanel_DOCK_Code)
+dockFrame(PAResourceOtoP.PAViews_CODE, "lab_1b_top_level.sv"); // S (PAResourceOtoP.PAViews_CODE, Code)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectCodeEditor("lab_1b_top_level.sv", 309, 220); // ae (lab_1b_top_level.sv)
+// Elapsed time: 349 seconds
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "lab_1b_top_level.sv"); // S (PAResourceOtoP.PAViews_CODE, Code)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 26 seconds
+selectCodeEditor("lab_1b_top_level.sv", 136, 29); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 136, 29, false, false, false, false, true); // ae (lab_1b_top_level.sv) - Double Click
+selectCodeEditor("lab_1b_top_level.sv", 136, 29); // ae (lab_1b_top_level.sv)
+typeControlKey((HResource) null, "lab_1b_top_level.sv", 'c'); // ae (lab_1b_top_level.sv)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab_1b_top_level (lab_1b_top_level.sv)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, seven_segment_display_subsystem (seven_segment_display_subsystem.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, seven_segment_display_subsystem (seven_segment_display_subsystem.sv)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_FLOAT_PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "seven_segment_display_subsystem.sv"); // S (PAResourceOtoP.PAViews_CODE, Code (3))
+selectCodeEditor("seven_segment_display_subsystem.sv", 489, 221); // ae (seven_segment_display_subsystem.sv)
+selectCodeEditor("seven_segment_display_subsystem.sv", 393, 95); // ae (seven_segment_display_subsystem.sv)
+typeControlKey((HResource) null, "seven_segment_display_subsystem.sv", 'v'); // ae (seven_segment_display_subsystem.sv)
+selectCodeEditor("seven_segment_display_subsystem.sv", 244, 94); // ae (seven_segment_display_subsystem.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:44s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:46s
+// Elapsed time: 11 seconds
+selectCodeEditor("lab_1b_top_level.sv", 144, 57); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 150, 76); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 151, 139); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 152, 165); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 151, 181); // ae (lab_1b_top_level.sv)
+// Elapsed time: 39 seconds
+selectCodeEditor("lab_1b_top_level.sv", 129, 128); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 316, 225); // ae (lab_1b_top_level.sv)
+// Elapsed time: 140 seconds
+selectCodeEditor("seven_segment_display_subsystem.sv", 507, 78); // ae (seven_segment_display_subsystem.sv)
+selectCodeEditor("seven_segment_display_subsystem.sv", 491, 162); // ae (seven_segment_display_subsystem.sv)
+// [GUI Memory]: 165 MB (+2681kb) [00:31:24]
+// Elapsed time: 243 seconds
+selectCodeEditor("lab_1b_top_level.sv", 311, 146); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 311, 144); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 331, 124); // ae (lab_1b_top_level.sv)
+// Elapsed time: 84 seconds
+selectCodeEditor("lab_1b_top_level.sv", 571, 190); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 564, 188); // ae (lab_1b_top_level.sv)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,043 MB. GUI used memory: 88 MB. Current time: 9/17/26, 6:01:29 PM MDT
+// Elapsed time: 893 seconds
+selectCodeEditor("lab_1b_top_level.sv", 551, 283); // ae (lab_1b_top_level.sv)
+// Elapsed time: 128 seconds
+selectCodeEditor("lab_1b_top_level.sv", 250, 288); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 581, 237); // ae (lab_1b_top_level.sv)
+// Elapsed time: 34 seconds
+selectCodeEditor("lab_1b_top_level.sv", 275, 253); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 278, 234); // ae (lab_1b_top_level.sv)
+// Elapsed time: 13 seconds
+selectCodeEditor("lab_1b_top_level.sv", 176, 221); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 169, 221); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 172, 243); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 130, 179); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 134, 199); // ae (lab_1b_top_level.sv)
+selectCodeEditor("lab_1b_top_level.sv", 161, 220); // ae (lab_1b_top_level.sv)
+// WARNING: HEventQueue.dispatchEvent() is taking  1152 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  125261 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  373079 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,043 MB. GUI used memory: 87 MB. Current time: 9/17/26, 6:31:30 PM MDT
+// WARNING: HEventQueue.dispatchEvent() is taking  27327 ms.
+// Elapsed time: 2072 seconds
+selectCodeEditor("lab_1b_top_level.sv", 250, 157); // ae (lab_1b_top_level.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("seven_segment_display_subsystem.sv", 183, 164); // ae (seven_segment_display_subsystem.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:27m:35s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:27m:36s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:27m:38s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:27m:40s

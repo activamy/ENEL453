@@ -24,12 +24,14 @@
 //*******************************************************************************
 
 module seven_segment_display_subsystem (
+    input  logic [15:0] switches_inputs, // slide switches (0 towards Basys3 board edge, 1 towards board center)
     input  logic        clk,
     input  logic        reset,
     input  logic [3:0]  sec_dig1, // seconds digit (units)
     input  logic [3:0]  sec_dig2, // tens of seconds
     input  logic [3:0]  min_dig1, // minutes digit (units)
     input  logic [3:0]  min_dig2, // tens of minutes
+    
     output logic        CA, CB, CC, CD, CE, CF, CG, DP, // segment outputs (active-low)
     output logic        AN1, AN2, AN3, AN4 // anode outputs for digit selection (active-low)
 );

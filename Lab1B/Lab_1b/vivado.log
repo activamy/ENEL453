@@ -134,3 +134,20 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
 open_project: Time (s): cpu = 00:01:07 ; elapsed = 00:00:30 . Memory (MB): peak = 1625.715 ; gain = 187.301
 update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Sep 17 17:31:28 2026] Launched impl_1...
+Run output will be captured here: C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
