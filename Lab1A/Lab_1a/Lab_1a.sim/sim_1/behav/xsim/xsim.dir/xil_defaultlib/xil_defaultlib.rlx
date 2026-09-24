@@ -1,8 +1,0 @@
-0.7
-2020.2
-May 22 2025
-00:13:55
-C:/ENEL453/Lab1A/Lab_1a/Lab_1a.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
-C:/ENEL453/Lab1A/lab_1a_top_level.sv,1789015056,systemVerilog,,C:/ENEL453/Lab1A/switch_logic.sv,,lab_1a_top_level,,uvm,../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/ENEL453/Lab1A/lab_1a_top_level_tb.sv,1789015056,systemVerilog,,,,lab_1a_top_level_tb,,uvm,../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/ENEL453/Lab1A/switch_logic.sv,1789103399,systemVerilog,,C:/ENEL453/Lab1A/lab_1a_top_level_tb.sv,,switch_logic,,uvm,../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
