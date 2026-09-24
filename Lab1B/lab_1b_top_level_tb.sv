@@ -44,14 +44,14 @@ module lab_1b_top_level_tb();
         #(CLK_PERIOD / 4);
         
         // Apply Reset
-        reset = 0;
-        #RESET_DURATION;
         reset = 1;
+        #RESET_DURATION;
+        reset = 0;
         #CLK_PERIOD;
         
         // Test case 1:
         switches_inputs = 16'b0000_0000_0000_0000; #CLK_PERIOD;
-        
+
         // Test case 2:
         switches_inputs = 16'b1111_1111_1111_1111; #CLK_PERIOD;
 
@@ -60,10 +60,10 @@ module lab_1b_top_level_tb();
 
         // Test case 3:
         switches_inputs = 16'b1010_1010_1010_1010; #CLK_PERIOD;
-        
+
         // Test case 4:
         switches_inputs = 16'b1100_1100_1100_1100; #CLK_PERIOD;
-        
+
         // Test case 5:
         switches_inputs = 16'b0011_0011_0011_0011; #CLK_PERIOD;
         
@@ -79,3 +79,21 @@ module lab_1b_top_level_tb();
     end
 
 endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

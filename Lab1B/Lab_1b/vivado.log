@@ -3766,3 +3766,1266 @@ Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
 Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
 $stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
 relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:22 . Memory (MB): peak = 5497.621 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+ERROR: [VRFC 10-4982] syntax error near '~' [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:17]
+ERROR: [VRFC 10-8530] module 'lab_1b_top_level_tb' is ignored due to previous errors [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:3]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 5497.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000010000, led = 0000000000010000
+Time = 62000: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 5497.664 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+run 1000 ns
+run 10000 ns
+run 10000 ms
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:01:11 ; elapsed = 00:01:02 . Memory (MB): peak = 5498.277 ; gain = 0.613
+INFO: [Common 17-344] 'run' was cancelled
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 19768 KB (Peak: 19768 KB), Simulation CPU Usage: 12717 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+ERROR: [VRFC 10-2989] 'RESET_DURATION' is not declared [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:45]
+ERROR: [VRFC 10-8530] module 'lab_1b_top_level_tb' is ignored due to previous errors [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+ERROR: [VRFC 10-2989] 'RESET_DURATION' is not declared [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:45]
+ERROR: [VRFC 10-8530] module 'lab_1b_top_level_tb' is ignored due to previous errors [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:17]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 5498.277 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 68
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 5498.277 ; gain = 0.000
+add_bp {C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv} 68
+remove_bps -file {C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv} -line 68
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 5498.277 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 122000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 132000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 142000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 152000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 162000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 222 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 74
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 5498.277 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\lab_1b_top_level_tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\digit_multiplexor.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_display_subsystem.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\switch_logic.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_digit_selector.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\activ\OneDrive\Document\GitHub\ENEL453\Lab1B\others\seven_segment_decoder_Lab1b.sv:]
+current_wave_config {Untitled 26}
+Untitled 26
+add_wave {{/lab_1b_top_level_tb/uut/DISPLAY/DIGIT_MUX}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digit_multiplexor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_digit_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display_subsystem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module switch_logic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_1b_top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv" Line 1. Module lab_1b_top_level doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/switch_logic.sv" Line 1. Module switch_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_display_subsystem.sv" Line 26. Module seven_segment_display_subsystem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/digit_multiplexor.sv" Line 39. Module digit_multiplexor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_digit_selector.sv" Line 36. Module seven_segment_digit_selector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/others/seven_segment_decoder_Lab1b.sv" Line 37. Module seven_segment_decoder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.switch_logic
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.lab_1b_top_level
+Compiling module xil_defaultlib.lab_1b_top_level_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_1b_top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 5498.277 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 5524.277 ; gain = 12.184
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 5524.277 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab_1b_top_level_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/2025.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab_1b_top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj lab_1b_top_level_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_1b_top_level_tb_behav xil_defaultlib.lab_1b_top_level_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switches_inputs' is not connected on this instance [C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level.sv:21]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab_1b_top_level_tb_behav -key {Behavioral:sim_1:Functional:lab_1b_top_level_tb} -tclbatch {lab_1b_top_level_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab_1b_top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time = 0: switches_inputs = 0000000000000000, led = 0000000000000000
+Time = 72000: switches_inputs = 1111111111111111, led = 1111111111111111
+Time = 82000: switches_inputs = 0101010101010101, led = 0101010101010101
+Time = 92000: switches_inputs = 1010101010101010, led = 1010101010101010
+Time = 102000: switches_inputs = 1100110011001100, led = 1100110011001100
+Time = 112000: switches_inputs = 0011001100110011, led = 0011001100110011
+$stop called at time : 172 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab_1b_top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 5687.867 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 18 21:05:43 2026...

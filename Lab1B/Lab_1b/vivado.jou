@@ -129,3 +129,39 @@ run 200 ms
 run 10 ns
 run 10 ns
 relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source lab_1b_top_level_tb.tcl
+run 1000 ns
+run 10000 ns
+run 10000 ms
+close_sim
+launch_simulation
+launch_simulation
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+launch_simulation
+source lab_1b_top_level_tb.tcl
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+add_bp {C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv} 68
+remove_bps -file {C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/lab_1b_top_level_tb.sv} -line 68
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+current_wave_config {Untitled 26}
+add_wave {{/lab_1b_top_level_tb/uut/DISPLAY/DIGIT_MUX}} 
+relaunch_sim
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source lab_1b_top_level_tb.tcl
+close_sim
