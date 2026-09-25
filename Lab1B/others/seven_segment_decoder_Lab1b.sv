@@ -66,6 +66,13 @@ module seven_segment_decoder (
 // Students: fill in the remaining rows for this case statement,
 // to account for the hexademcial digits A, B, C, D, E, and F
 
+            4'b1010: decoded_bits = 7'b1110111; // A
+            4'b1011: decoded_bits = 7'b0011111; // B
+            4'b1100: decoded_bits = 7'b1001110; // C
+            4'b1101: decoded_bits = 7'b0111101; // D
+            4'b1110: decoded_bits = 7'b1001111; // E
+            4'b1111: decoded_bits = 7'b1000111; // F
+
             default: decoded_bits = 7'b0000000; // All LEDs off
         endcase                     // ABCDEFG
     end                             // 6543210

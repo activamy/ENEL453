@@ -2,7 +2,7 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-// Date        : Wed Sep 23 12:12:08 2026
+// Date        : Fri Sep 25 10:13:16 2026
 // Host        : akaangelchan running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/Lab_1b.sim/sim_1/impl/timing/xsim/lab_1b_top_level_tb_time_impl.v
@@ -36,19 +36,15 @@ module digit_multiplexor
         .O(\q_reg[0] ));
 endmodule
 
-(* ECO_CHECKSUM = "5ea5dbb" *) 
+(* ECO_CHECKSUM = "9f28da6f" *) 
 (* NotValidForBitStream *)
 (* \DesignAttr:ENABLE_NOC_NETLIST_VIEW  *) 
 (* \DesignAttr:ENABLE_AIE_NETLIST_VIEW  *) 
 module lab_1b_top_level
    (switches_inputs,
+    led,
     clk,
     reset,
-    led,
-    AN1,
-    AN2,
-    AN3,
-    AN4,
     CA,
     CB,
     CC,
@@ -56,15 +52,15 @@ module lab_1b_top_level
     CE,
     CF,
     CG,
-    DP);
+    DP,
+    AN1,
+    AN2,
+    AN3,
+    AN4);
   input [15:0]switches_inputs;
+  output [15:0]led;
   input clk;
   input reset;
-  output [15:0]led;
-  output AN1;
-  output AN2;
-  output AN3;
-  output AN4;
   output CA;
   output CB;
   output CC;
@@ -73,6 +69,10 @@ module lab_1b_top_level
   output CF;
   output CG;
   output DP;
+  output AN1;
+  output AN2;
+  output AN3;
+  output AN4;
 
   wire AN1;
   wire AN1_OBUF;
@@ -142,10 +142,7 @@ end
   OBUF CG_OBUF_inst
        (.I(CG_OBUF),
         .O(CG));
-  OBUF DP_OBUF_inst
-       (.I(1'b1),
-        .O(DP));
-  seven_segment_display_subsystem SEVEN_SEGMENT_DISPLAY
+  seven_segment_display_subsystem DISPLAY
        (.AN1_OBUF(AN1_OBUF),
         .AN2_OBUF(AN2_OBUF),
         .AN3_OBUF(AN3_OBUF),
@@ -160,6 +157,9 @@ end
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
         .led_OBUF(led_OBUF),
         .reset_IBUF(reset_IBUF));
+  OBUF DP_OBUF_inst
+       (.I(1'b1),
+        .O(DP));
   BUFG clk_IBUF_BUFG_inst
        (.I(clk_IBUF),
         .O(clk_IBUF_BUFG));
@@ -272,11 +272,11 @@ module seven_segment_digit_selector
     digit_select,
     CG_OBUF,
     CF_OBUF,
-    CB_OBUF,
-    CE_OBUF,
-    CD_OBUF,
     CC_OBUF,
+    CB_OBUF,
     CA_OBUF,
+    CD_OBUF,
+    CE_OBUF,
     AN4_OBUF,
     AN3_OBUF,
     AN2_OBUF,
@@ -289,11 +289,11 @@ module seven_segment_digit_selector
   output [1:0]digit_select;
   output CG_OBUF;
   output CF_OBUF;
-  output CB_OBUF;
-  output CE_OBUF;
-  output CD_OBUF;
   output CC_OBUF;
+  output CB_OBUF;
   output CA_OBUF;
+  output CD_OBUF;
+  output CE_OBUF;
   output AN4_OBUF;
   output AN3_OBUF;
   output AN2_OBUF;
@@ -318,8 +318,8 @@ module seven_segment_digit_selector
   wire CA_OBUF_inst_i_9_n_0;
   wire CB_OBUF;
   wire CB_OBUF_inst_i_2_n_0;
-  wire CB_OBUF_inst_i_3_n_0;
   wire CC_OBUF;
+  wire CC_OBUF_inst_i_2_n_0;
   wire CD_OBUF;
   wire CE_OBUF;
   wire CE_OBUF_inst_i_2_n_0;
@@ -356,8 +356,6 @@ module seven_segment_digit_selector
   wire \q[0]_i_1_n_0 ;
   wire \q[1]_i_1_n_0 ;
   wire \q[2]_i_1_n_0 ;
-  wire \q[3]_i_10_n_0 ;
-  wire \q[3]_i_11_n_0 ;
   wire \q[3]_i_1_n_0 ;
   wire \q[3]_i_2_n_0 ;
   wire \q[3]_i_3_n_0 ;
@@ -396,7 +394,7 @@ module seven_segment_digit_selector
        (.I0(d[0]),
         .O(AN4_OBUF));
   LUT4 #(
-    .INIT(16'h8477)) 
+    .INIT(16'h6810)) 
     CA_OBUF_inst_i_1
        (.I0(CA_OBUF_inst_i_2_n_0),
         .I1(CA_OBUF_inst_i_3_n_0),
@@ -407,21 +405,21 @@ module seven_segment_digit_selector
     .INIT(64'h00151515FFFFFFFF)) 
     CA_OBUF_inst_i_2
        (.I0(CA_OBUF_inst_i_6_n_0),
-        .I1(led_OBUF[6]),
+        .I1(led_OBUF[7]),
         .I2(digit_select[1]),
-        .I3(led_OBUF[2]),
+        .I3(led_OBUF[3]),
         .I4(digit_select[0]),
         .I5(CG),
         .O(CA_OBUF_inst_i_2_n_0));
   LUT6 #(
-    .INIT(64'h00151515FFFFFFFF)) 
+    .INIT(64'hAAAAA888A888A888)) 
     CA_OBUF_inst_i_3
-       (.I0(CA_OBUF_inst_i_7_n_0),
-        .I1(led_OBUF[5]),
-        .I2(digit_select[1]),
-        .I3(led_OBUF[1]),
-        .I4(digit_select[0]),
-        .I5(CG),
+       (.I0(CG),
+        .I1(CA_OBUF_inst_i_7_n_0),
+        .I2(led_OBUF[6]),
+        .I3(digit_select[1]),
+        .I4(led_OBUF[2]),
+        .I5(digit_select[0]),
         .O(CA_OBUF_inst_i_3_n_0));
   LUT6 #(
     .INIT(64'hAAAAA888A888A888)) 
@@ -437,26 +435,26 @@ module seven_segment_digit_selector
     .INIT(64'h00151515FFFFFFFF)) 
     CA_OBUF_inst_i_5
        (.I0(CA_OBUF_inst_i_9_n_0),
-        .I1(d[1]),
-        .I2(led_OBUF[11]),
-        .I3(d[0]),
-        .I4(led_OBUF[15]),
+        .I1(led_OBUF[5]),
+        .I2(digit_select[1]),
+        .I3(led_OBUF[1]),
+        .I4(digit_select[0]),
         .I5(CG),
         .O(CA_OBUF_inst_i_5_n_0));
   LUT4 #(
     .INIT(16'hF888)) 
     CA_OBUF_inst_i_6
-       (.I0(led_OBUF[10]),
-        .I1(d[1]),
-        .I2(led_OBUF[14]),
-        .I3(d[0]),
+       (.I0(d[1]),
+        .I1(led_OBUF[11]),
+        .I2(d[0]),
+        .I3(led_OBUF[15]),
         .O(CA_OBUF_inst_i_6_n_0));
   LUT4 #(
     .INIT(16'hF888)) 
     CA_OBUF_inst_i_7
-       (.I0(led_OBUF[9]),
+       (.I0(led_OBUF[10]),
         .I1(d[1]),
-        .I2(led_OBUF[13]),
+        .I2(led_OBUF[14]),
         .I3(d[0]),
         .O(CA_OBUF_inst_i_7_n_0));
   LUT4 #(
@@ -470,88 +468,89 @@ module seven_segment_digit_selector
   LUT4 #(
     .INIT(16'hF888)) 
     CA_OBUF_inst_i_9
-       (.I0(led_OBUF[7]),
-        .I1(digit_select[1]),
-        .I2(led_OBUF[3]),
-        .I3(digit_select[0]),
+       (.I0(led_OBUF[9]),
+        .I1(d[1]),
+        .I2(led_OBUF[13]),
+        .I3(d[0]),
         .O(CA_OBUF_inst_i_9_n_0));
-  LUT5 #(
-    .INIT(32'h145F0055)) 
+  LUT4 #(
+    .INIT(16'h58C4)) 
     CB_OBUF_inst_i_1
        (.I0(CA_OBUF_inst_i_2_n_0),
-        .I1(CB_OBUF_inst_i_2_n_0),
-        .I2(CB_OBUF_inst_i_3_n_0),
-        .I3(CA_OBUF_inst_i_5_n_0),
-        .I4(CG),
+        .I1(CA_OBUF_inst_i_3_n_0),
+        .I2(CB_OBUF_inst_i_2_n_0),
+        .I3(CA_OBUF_inst_i_4_n_0),
         .O(CB_OBUF));
+  LUT6 #(
+    .INIT(64'hAAAAAAAAAA808080)) 
+    CB_OBUF_inst_i_2
+       (.I0(CG),
+        .I1(digit_select[0]),
+        .I2(led_OBUF[1]),
+        .I3(digit_select[1]),
+        .I4(led_OBUF[5]),
+        .I5(CA_OBUF_inst_i_9_n_0),
+        .O(CB_OBUF_inst_i_2_n_0));
+  LUT5 #(
+    .INIT(32'h33C03100)) 
+    CC_OBUF_inst_i_1
+       (.I0(CG),
+        .I1(CA_OBUF_inst_i_2_n_0),
+        .I2(CC_OBUF_inst_i_2_n_0),
+        .I3(CA_OBUF_inst_i_3_n_0),
+        .I4(CB_OBUF_inst_i_2_n_0),
+        .O(CC_OBUF));
   LUT5 #(
     .INIT(32'h00000777)) 
-    CB_OBUF_inst_i_2
+    CC_OBUF_inst_i_2
        (.I0(digit_select[0]),
         .I1(led_OBUF[0]),
         .I2(digit_select[1]),
         .I3(led_OBUF[4]),
         .I4(CA_OBUF_inst_i_8_n_0),
-        .O(CB_OBUF_inst_i_2_n_0));
-  LUT5 #(
-    .INIT(32'h00000777)) 
-    CB_OBUF_inst_i_3
-       (.I0(digit_select[0]),
-        .I1(led_OBUF[1]),
-        .I2(digit_select[1]),
-        .I3(led_OBUF[5]),
-        .I4(CA_OBUF_inst_i_7_n_0),
-        .O(CB_OBUF_inst_i_3_n_0));
+        .O(CC_OBUF_inst_i_2_n_0));
   LUT4 #(
-    .INIT(16'h1355)) 
-    CC_OBUF_inst_i_1
-       (.I0(CA_OBUF_inst_i_5_n_0),
+    .INIT(16'h28C1)) 
+    CD_OBUF_inst_i_1
+       (.I0(CA_OBUF_inst_i_2_n_0),
         .I1(CA_OBUF_inst_i_3_n_0),
         .I2(CA_OBUF_inst_i_4_n_0),
-        .I3(CA_OBUF_inst_i_2_n_0),
-        .O(CC_OBUF));
-  LUT4 #(
-    .INIT(16'h873B)) 
-    CD_OBUF_inst_i_1
-       (.I0(CA_OBUF_inst_i_4_n_0),
-        .I1(CA_OBUF_inst_i_5_n_0),
-        .I2(CA_OBUF_inst_i_2_n_0),
-        .I3(CA_OBUF_inst_i_3_n_0),
+        .I3(CA_OBUF_inst_i_5_n_0),
         .O(CD_OBUF));
-  LUT4 #(
-    .INIT(16'hABFB)) 
+  LUT5 #(
+    .INIT(32'hFCCC0C04)) 
     CE_OBUF_inst_i_1
-       (.I0(CA_OBUF_inst_i_4_n_0),
-        .I1(CE_OBUF_inst_i_2_n_0),
+       (.I0(CG),
+        .I1(CA_OBUF_inst_i_4_n_0),
         .I2(CA_OBUF_inst_i_3_n_0),
-        .I3(CA_OBUF_inst_i_2_n_0),
+        .I3(CE_OBUF_inst_i_2_n_0),
+        .I4(CA_OBUF_inst_i_2_n_0),
         .O(CE_OBUF));
   LUT5 #(
     .INIT(32'h00000777)) 
     CE_OBUF_inst_i_2
-       (.I0(led_OBUF[15]),
-        .I1(d[0]),
-        .I2(led_OBUF[11]),
-        .I3(d[1]),
+       (.I0(digit_select[0]),
+        .I1(led_OBUF[1]),
+        .I2(digit_select[1]),
+        .I3(led_OBUF[5]),
         .I4(CA_OBUF_inst_i_9_n_0),
         .O(CE_OBUF_inst_i_2_n_0));
-  LUT5 #(
-    .INIT(32'h2B5F0055)) 
+  LUT4 #(
+    .INIT(16'h60A2)) 
     CF_OBUF_inst_i_1
        (.I0(CA_OBUF_inst_i_2_n_0),
-        .I1(CB_OBUF_inst_i_2_n_0),
-        .I2(CB_OBUF_inst_i_3_n_0),
-        .I3(CA_OBUF_inst_i_5_n_0),
-        .I4(CG),
+        .I1(CA_OBUF_inst_i_5_n_0),
+        .I2(CA_OBUF_inst_i_4_n_0),
+        .I3(CA_OBUF_inst_i_3_n_0),
         .O(CF_OBUF));
   LUT5 #(
-    .INIT(32'hC3C337C7)) 
+    .INIT(32'h66022282)) 
     CG_OBUF_inst_i_1
-       (.I0(CB_OBUF_inst_i_2_n_0),
-        .I1(CA_OBUF_inst_i_5_n_0),
-        .I2(CA_OBUF_inst_i_2_n_0),
-        .I3(CG),
-        .I4(CB_OBUF_inst_i_3_n_0),
+       (.I0(CA_OBUF_inst_i_2_n_0),
+        .I1(CA_OBUF_inst_i_3_n_0),
+        .I2(CG),
+        .I3(CE_OBUF_inst_i_2_n_0),
+        .I4(CC_OBUF_inst_i_2_n_0),
         .O(CG_OBUF));
   LUT1 #(
     .INIT(2'h1)) 
@@ -734,7 +733,7 @@ module seven_segment_digit_selector
         .D(\count_reg[8]_i_1_n_6 ),
         .Q(count_reg[9]),
         .R(reset_IBUF));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT4 #(
     .INIT(16'h2ACC)) 
     \q[0]_i_1 
@@ -743,7 +742,7 @@ module seven_segment_digit_selector
         .I2(digit_select[1]),
         .I3(\q[3]_i_2_n_0 ),
         .O(\q[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'h2C)) 
     \q[1]_i_1 
@@ -769,89 +768,76 @@ module seven_segment_digit_selector
         .I4(\q[3]_i_3_n_0 ),
         .I5(\q[3]_i_4_n_0 ),
         .O(\q[3]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFF44F4)) 
-    \q[3]_i_10 
-       (.I0(count_reg[4]),
-        .I1(count_reg[3]),
-        .I2(count_reg[0]),
-        .I3(count_reg[1]),
-        .I4(count_reg[8]),
-        .I5(count_reg[2]),
-        .O(\q[3]_i_10_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFF7)) 
-    \q[3]_i_11 
-       (.I0(digit_select[1]),
-        .I1(digit_select[0]),
-        .I2(count_reg[13]),
-        .I3(count_reg[16]),
-        .O(\q[3]_i_11_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000000000010)) 
+  LUT5 #(
+    .INIT(32'h00000001)) 
     \q[3]_i_2 
        (.I0(\q[3]_i_5_n_0 ),
         .I1(\q[3]_i_6_n_0 ),
         .I2(\q[3]_i_7_n_0 ),
         .I3(\q[3]_i_8_n_0 ),
-        .I4(\q[3]_i_9_n_0 ),
-        .I5(\q[3]_i_10_n_0 ),
+        .I4(\q[3]_i_3_n_0 ),
         .O(\q[3]_i_2_n_0 ));
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     \q[3]_i_3 
-       (.I0(count_reg[0]),
-        .I1(count_reg[6]),
-        .I2(count_reg[3]),
-        .I3(count_reg[9]),
-        .I4(\q[3]_i_11_n_0 ),
-        .O(\q[3]_i_3_n_0 ));
-  LUT5 #(
-    .INIT(32'h00000001)) 
-    \q[3]_i_4 
-       (.I0(count_reg[7]),
+       (.I0(count_reg[10]),
         .I1(count_reg[4]),
-        .I2(count_reg[11]),
-        .I3(\q[3]_i_6_n_0 ),
-        .I4(\q[3]_i_5_n_0 ),
+        .I2(count_reg[5]),
+        .I3(count_reg[11]),
+        .I4(count_reg[14]),
+        .O(\q[3]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'h0000000000000001)) 
+    \q[3]_i_4 
+       (.I0(\q[3]_i_9_n_0 ),
+        .I1(\q[3]_i_7_n_0 ),
+        .I2(count_reg[7]),
+        .I3(count_reg[8]),
+        .I4(count_reg[12]),
+        .I5(count_reg[15]),
         .O(\q[3]_i_4_n_0 ));
   LUT4 #(
     .INIT(16'hFFFE)) 
     \q[3]_i_5 
-       (.I0(count_reg[1]),
-        .I1(count_reg[10]),
-        .I2(count_reg[14]),
-        .I3(count_reg[15]),
-        .O(\q[3]_i_5_n_0 ));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    \q[3]_i_6 
-       (.I0(count_reg[2]),
+       (.I0(count_reg[7]),
         .I1(count_reg[8]),
         .I2(count_reg[12]),
-        .I3(count_reg[5]),
-        .O(\q[3]_i_6_n_0 ));
-  LUT3 #(
-    .INIT(8'h01)) 
-    \q[3]_i_7 
-       (.I0(count_reg[11]),
-        .I1(count_reg[4]),
-        .I2(count_reg[7]),
-        .O(\q[3]_i_7_n_0 ));
+        .I3(count_reg[15]),
+        .O(\q[3]_i_5_n_0 ));
   LUT3 #(
     .INIT(8'hBA)) 
-    \q[3]_i_8 
+    \q[3]_i_6 
        (.I0(count_reg[5]),
-        .I1(count_reg[7]),
-        .I2(count_reg[6]),
-        .O(\q[3]_i_8_n_0 ));
+        .I1(count_reg[10]),
+        .I2(count_reg[9]),
+        .O(\q[3]_i_6_n_0 ));
   LUT4 #(
-    .INIT(16'hEFEE)) 
+    .INIT(16'hFFFE)) 
+    \q[3]_i_7 
+       (.I0(count_reg[1]),
+        .I1(count_reg[13]),
+        .I2(count_reg[2]),
+        .I3(count_reg[16]),
+        .O(\q[3]_i_7_n_0 ));
+  LUT6 #(
+    .INIT(64'h44F444F4FFFF44F4)) 
+    \q[3]_i_8 
+       (.I0(count_reg[1]),
+        .I1(count_reg[0]),
+        .I2(count_reg[6]),
+        .I3(count_reg[7]),
+        .I4(count_reg[3]),
+        .I5(count_reg[4]),
+        .O(\q[3]_i_8_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFFFFFFFFF7)) 
     \q[3]_i_9 
-       (.I0(count_reg[13]),
-        .I1(count_reg[16]),
-        .I2(count_reg[10]),
-        .I3(count_reg[9]),
+       (.I0(digit_select[1]),
+        .I1(digit_select[0]),
+        .I2(count_reg[3]),
+        .I3(count_reg[6]),
+        .I4(count_reg[0]),
+        .I5(count_reg[9]),
         .O(\q[3]_i_9_n_0 ));
   FDSE #(
     .INIT(1'b1)) 
@@ -890,11 +876,11 @@ endmodule
 module seven_segment_display_subsystem
    (CG_OBUF,
     CF_OBUF,
-    CB_OBUF,
-    CE_OBUF,
-    CD_OBUF,
     CC_OBUF,
+    CB_OBUF,
     CA_OBUF,
+    CD_OBUF,
+    CE_OBUF,
     AN4_OBUF,
     AN3_OBUF,
     AN2_OBUF,
@@ -904,11 +890,11 @@ module seven_segment_display_subsystem
     clk_IBUF_BUFG);
   output CG_OBUF;
   output CF_OBUF;
-  output CB_OBUF;
-  output CE_OBUF;
-  output CD_OBUF;
   output CC_OBUF;
+  output CB_OBUF;
   output CA_OBUF;
+  output CD_OBUF;
+  output CE_OBUF;
   output AN4_OBUF;
   output AN3_OBUF;
   output AN2_OBUF;

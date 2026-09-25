@@ -108,7 +108,7 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
   set_param general.usePosixSpawnForFork 1
-  set_param synth.incrementalSynthesisCache C:/Users/activ/OneDrive/Document/GitHub/ENEL453/Lab1B/Lab_1b/.Xil/Vivado-6240-akaangelchan/incrSyn
+  set_param synth.incrementalSynthesisCache C:/Users/activ/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12200-akaangelchan/incrSyn
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
