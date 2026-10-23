@@ -97,7 +97,7 @@ module lab_5_top_level #(
 
     seven_segment_display_subsystem SEVEN_SEGMENT_DISPLAY (
         .clk(clk),
-        .reset(reset),
+          .reset(reset),
         .digit_0(display_data[3:0]),
         .digit_1(display_data[7:4]),
         .digit_2(display_data[11:8]),
