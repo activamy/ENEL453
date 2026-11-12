@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/disk_pkg.sv" \
+"../../../../../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/quad_decoder.sv" \
+"../../../../../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/tb/tb_quad_decoder.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,36 @@
+Time resolution is 1 ps
+FOWARD: 00 -> 10, postion =           1
+FOWARD: 10 -> 11, postion =           2
+FOWARD: 11 -> 01, postion =           3
+FOWARD: 01 -> 00, postion =           4
+FOWARD: 00 -> 10, postion =           5
+FOWARD: 10 -> 11, postion =           6
+FOWARD: 11 -> 01, postion =           7
+FOWARD: 01 -> 00, postion =           8
+FOWARD: 00 -> 10, postion =           9
+FOWARD: 10 -> 11, postion =          10
+1
+
+backwards: 11 -> 10, postion =           9
+backwards: 10 -> 00, postion =           8
+backwards: 00 -> 01, postion =           7
+backwards: 01 -> 11, postion =           6
+backwards: 11 -> 10, postion =           5
+backwards: 10 -> 00, postion =           4
+backwards: 00 -> 01, postion =           3
+backwards: 01 -> 11, postion =           2
+backwards: 11 -> 10, postion =           1
+backwards: 10 -> 00, postion =           0
+backwards: 00 -> 01, postion =          -1
+backwards: 01 -> 11, postion =          -2
+backwards: 11 -> 10, postion =          -3
+backwards: 10 -> 00, postion =          -4
+backwards: 00 -> 01, postion =          -5
+starting
+
+FOWARD: 01 -> 00, postion =          -4
+backwards: 00 -> 01, postion =          -5
+dbc1 a:1 b:0 
+
+dbc2 a:0 b:1 
+
