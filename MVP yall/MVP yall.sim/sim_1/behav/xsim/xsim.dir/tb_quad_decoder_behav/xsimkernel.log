@@ -1,7 +1,4 @@
-Running: xsim.dir/tb_quad_decoder_behav/xsimk.exe -simmode gui -wdb tb_quad_decoder_behav.wdb -simrunnum 0 -socket 55204
+Running: xsim.dir/tb_quad_decoder_behav/xsimk.exe -simmode gui -wdb tb_quad_decoder_behav.wdb -simrunnum 0 -socket 65417
 Design successfully loaded
-Design Loading Memory Usage: 11016 KB (Peak: 11016 KB)
+Design Loading Memory Usage: 11072 KB (Peak: 11072 KB)
 Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 13016 KB (Peak: 13016 KB)
-Simulation CPU Usage: 93 ms
