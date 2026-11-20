@@ -127,9 +127,7 @@ module disk_top
     input  logic                 step_up_button,
     input  logic                 step_down_button,
     input  logic [KP_WIDTH-1:0]  kp_switches,
-    input  logic                 arm_switch,
-    input  logic                 display_sw, 
-    
+    input  logic                 arm_switch,    
     input  logic                 ch_a,
     input  logic                 ch_b,
     output logic                 motor_en,
@@ -138,8 +136,13 @@ module disk_top
     output logic [15:0]          led,
     output logic                 CA, CB, CC, CD, CE, CF, CG,
     output logic                 DP,
-    output logic                 AN1, AN2, AN3, AN4
-);
+    output logic                 AN1, AN2, AN3, AN4,
+    
+    
+    
+    //added
+    input  logic                 display_sw
+    );
 
     // Clock cycles between controller samples: 100,000,000 / 100 = 1,000,000.
     localparam int CTRL_PERIOD     = CLK_FREQ / CTRL_FREQ;
@@ -151,9 +154,7 @@ module disk_top
     logic                             encoder_a;
     logic                             encoder_b;
     logic        [KP_WIDTH-1:0]       kp;
-    logic                             arm;
-    logic                             display;
-    
+    logic                             arm;    
     logic                             step_up;
     logic                             step_down;
     logic                             control_tick;
@@ -163,6 +164,11 @@ module disk_top
     logic signed [COMMAND_WIDTH-1:0]  command;
     logic        [DEGREES_WIDTH-1:0]  degrees;
     logic        [15:0]               degrees_bcd;
+    
+    // Added
+    logic                             display;
+    logic        [15:0]               bcd_val;
+    logic        [3:0]                blank_digit;
 
     //--------------------------------------------------------------------------
     // Inputs: synchronize the switches, encoder and reset button; debounce the
@@ -216,9 +222,10 @@ module disk_top
     );
     
     
-    // Count Display Switch.
+    // added
+    // Count Display Switch
     synchronizer # (
-        .width(1)
+        .WIDTH(1)
     ) DISPLAY_SYNC (
         .clk(clk),                   // clock
         .d(display_sw),              // sw[10]
@@ -226,7 +233,7 @@ module disk_top
     );
 
 
-
+   
 
     // Step-up button (btnR).
     debounce #(
@@ -342,7 +349,7 @@ module disk_top
     bin_to_bcd BIN_TO_BCD (
         .clk(clk),                    // system clock
         .reset(reset),                // synchronous reset
-        .bin_in(16'(degrees)),        // 9-bit angle, zero-extended to 16 bits
+        .bin_in(bcd_val),             // 9-bit angle, zero-extended to 16 bits
         .bcd_out(degrees_bcd)         // four BCD digits, e.g. 0359
     );
 
@@ -354,7 +361,7 @@ module disk_top
         .digit3(degrees_bcd[11:8]),   // hundreds of degrees
         .digit4(degrees_bcd[15:12]),  // thousands: always 0, blanked (leftmost)
         .decimal_point(4'b0000),      // no decimal points
-        .digit_blank(4'b1000),        // leftmost digit dark: shows " 090"
+        .digit_blank(blank_digit),    // leftmost digit dark: shows " 090"
         .CA(CA),                      // segment outputs (active low)
         .CB(CB),
         .CC(CC),
@@ -367,6 +374,17 @@ module disk_top
         .AN2(AN2),
         .AN3(AN3),
         .AN4(AN4)
+    );
+    
+    
+    
+   // added 
+    count_display COUNT_DISPLAY (
+        .bin_val(bcd_val),
+        .sw10(display),                  // switch
+        .position(position),            // position
+        .degree(degrees),               // degrees
+        .blank_digit(blank_digit)
     );
 
     //--------------------------------------------------------------------------
