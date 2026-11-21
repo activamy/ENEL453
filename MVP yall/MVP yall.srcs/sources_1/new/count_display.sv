@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-
-
+// depending on the switch status, the board display will either show the position or the degree
+//          - swtch up, display = position
+//          - switch down, display = degree, leftmost digit is off
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -21,13 +22,13 @@ module count_display
 
     always_comb begin
         if (sw10 == 1) begin
-            bin_val = 16'(position[REV_BITS-1:0]);  // modulo 2048    refer to position_to_degrees for why this was chosen
+            bin_val = 16'(position[REV_BITS-1:0]);  // modulo 2048, past 2047 the position continues from 0 (-ve numbers is 2048 - magnitude of position, look at testbench to see it work)
             blank_digit = 4'b0;
         end
         
         else begin
             bin_val = 16'(degree);                        // force it to 16 bits
-            blank_digit = 4'b1000;
+            blank_digit = 4'b1000;                        // 4'b1000 == leftmost digit off
         end
     end
 endmodule
