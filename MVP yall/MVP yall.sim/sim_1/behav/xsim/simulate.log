@@ -1,7 +1,3 @@
 Time resolution is 1 ps
-1
-1
-1
-1
-PASS tb_quad_decoder
-$finish called at time : 62860 ns : File "C:/ENEL453/MVP/ENEL453_MVP_Spinning_Disk/tb/tb_quad_decoder.sv" Line 99
+PASS tb_count_display
+$finish called at time : 6 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/MVP yall/MVP yall.srcs/sim_1/new/tb_count_display.sv" Line 72

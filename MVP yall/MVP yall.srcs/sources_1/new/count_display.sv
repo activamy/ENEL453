@@ -21,7 +21,7 @@ module count_display
 
     always_comb begin
         if (sw10 == 1) begin
-            bin_val = {5'b00000, position[REV_BITS-1:0]};  // modulo 2048    refer to position_to_degrees for why this was chosen
+            bin_val = 16'(position[REV_BITS-1:0]);  // modulo 2048    refer to position_to_degrees for why this was chosen
             blank_digit = 4'b0;
         end
         

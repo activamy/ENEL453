@@ -2,3 +2,6 @@ Running: xsim.dir/tb_quad_decoder_behav/xsimk.exe -simmode gui -wdb tb_quad_deco
 Design successfully loaded
 Design Loading Memory Usage: 11152 KB (Peak: 11152 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 13600 KB (Peak: 13600 KB)
+Simulation CPU Usage: 234 ms
