@@ -1,3 +1,8 @@
 Time resolution is 1 ps
-PASS tb_count_display
-$finish called at time : 6 ns : File "C:/Users/activ/OneDrive/Document/GitHub/ENEL453/MVP yall/MVP yall.srcs/sim_1/new/tb_count_display.sv" Line 72
+     after reset setpoint     0  position     0  display 0000 deg
+         +90 deg setpoint   512  position   515  display 0090 deg
+    +90 deg step overshoot 3 counts
+         -90 deg setpoint  -512  position  -515  display 0269 deg
+PASS tb_disk_top
+$finish called at time : 3901999500 ns : File "C:/ENEL453/MVP/ENEL453_MVP_Spinning_Disk/tb/tb_disk_top.sv" Line 284
+INFO: xsimkernel Simulation Memory Usage: 21352 KB (Peak: 21352 KB), Simulation CPU Usage: 10202 ms
