@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/bin_to_bcd.sv" \
+"../../../../../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/tb/tb_bin_to_bcd.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
