@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_position_to_degrees_behav/xsimk.exe -simmode gui -wdb tb_position_to_degrees_behav.wdb -simrunnum 0 -socket 52813
+Running: xsim.dir/tb_position_to_degrees_behav/xsimk.exe -simmode gui -wdb tb_position_to_degrees_behav.wdb -simrunnum 0 -socket 57917
 Design successfully loaded
-Design Loading Memory Usage: 11068 KB (Peak: 11068 KB)
-Design Loading CPU Usage: 108 ms
+Design Loading Memory Usage: 11020 KB (Peak: 11020 KB)
+Design Loading CPU Usage: 171 ms
 Simulation completed
-Simulation Memory Usage: 14492 KB (Peak: 14492 KB)
-Simulation CPU Usage: 249 ms
+Simulation Memory Usage: 13888 KB (Peak: 13888 KB)
+Simulation CPU Usage: 437 ms
