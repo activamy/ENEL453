@@ -17,12 +17,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module input_conditioning
+module input_conditioning_subsystem
     import disk_pkg::*;                             // shared constants and widths
     #(
     parameter int CLK_FREQ    = CLK_FREQ_HZ,        // 100 MHz
-    parameter int CTRL_FREQ   = CONTROL_FREQ_HZ,    // 100 Hz
-    parameter int PWM_FREQ    = PWM_FREQ_HZ,        // 10 kHz
     parameter int DEBOUNCE_MS = DEBOUNCE_TIME_MS    // 50 ms
 )(
     input  logic                 clk,
@@ -34,16 +32,21 @@ module input_conditioning
     input  logic                 ch_a,
     input  logic                 ch_b,
     
-    input  logic                 display_sw
+    input  logic                 display_sw,
+    
+    
+    output logic                             reset,
+    output logic                             encoder_a,
+    output logic                             encoder_b,
+    output logic        [KP_WIDTH-1:0]       kp,
+    output logic                             arm,
+    output logic                             step_up,
+    output logic                             step_down,
+
+    output logic                             display
     );
     
-    logic                             reset;
-    logic                             encoder_a;
-    logic                             encoder_b;
-    logic        [KP_WIDTH-1:0]       kp;
-    logic                             arm;
-
-    logic                             display;
+    
     
 
     // Reset button. The synchronizer has no reset of its own, so it can
@@ -102,9 +105,7 @@ module input_conditioning
         .d(display_sw),              // sw[10]
         .q(display)                  // synchronized display switch
     );
-
-
-   
+ 
 
     // Step-up button (btnR).
     debounce #(
