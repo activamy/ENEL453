@@ -7,13 +7,44 @@
 //
 // Block diagram
 //
-//   someone plz make it :(
+//   reset_button     --> [synchronizer] --> reset
+//   ch_a             --> [synchronizer] --> encoder_a
+//   ch_b             --> [synchronizer] --> encoder_b
+//   kp_switches      --> [synchronizer] --> kp
+//   arm_switch       --> [synchronizer] --> arm
+//   display_sw       --> [synchronizer] --> display
+//
+//   step_up_button   --> [debounce] ----+--> step_up
+//                            ^
+//                            |
+//   step_down_button --> [debounce] ----+--> step_down
+//                            ^
+//                            |
+//                          reset
 //
 // Inputs
-//   no
+//   clk                    : System clock
+//   reset_button           : raw reset button (btnC), 1 while pressed
+//   step_up_button         : raw step up button (btnR), 1 while pressed
+//   step_down_button       : raw step down button (btnL), 1 while pressed
+//   kp_switches            : raw proportional gain switched (sw[3:0])
+//   arm_switch             : raw arm switch (sw15), 1 to let motor run
+//   ch_a, ch_b             : raw encoder a and b channels (Pmod JB1, JB2)
+//   display_sw             : raw display mode switch (sw10)
+//
+// Parameters
+//   CLK_FREQ               :
+//   DEBOUNCE_MS            :
+//
 // Outputs
-//   no
-// 
+//   reset                  :
+//   encoder_a, encoder_b   :
+//   kp                     :
+//   arm                    :
+//   step_up                :
+//   step_down              :
+//   display                :
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -47,8 +78,6 @@ module input_conditioning_subsystem
     );
     
     
-    
-
     // Reset button. The synchronizer has no reset of its own, so it can
     // synchronize the reset button itself.
     synchronizer #(
@@ -95,8 +124,6 @@ module input_conditioning_subsystem
         .q(arm)                       // synchronized: 1 = motor allowed to run
     );
     
-    
-    // added
     // Count Display Switch
     synchronizer # (
         .WIDTH(1)
