@@ -89,14 +89,21 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/bin_to_bcd.sv">
+      <File Path="$PPRDIR/../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/disk_pkg.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/disk_pkg.sv">
+      <File Path="$PSRCDIR/sources_1/new/angle_display_subsystem.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../../../../../ENEL453/MVP/ENEL453_MVP_Spinning_Disk/rtl/bin_to_bcd.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
