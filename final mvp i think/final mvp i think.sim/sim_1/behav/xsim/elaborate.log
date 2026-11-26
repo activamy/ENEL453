@@ -1,0 +1,37 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_disk_top_behav xil_defaultlib.tb_disk_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.disk_pkg
+Compiling module xil_defaultlib.synchronizer
+Compiling module xil_defaultlib.synchronizer(WIDTH=4)
+Compiling module xil_defaultlib.debounce(CLK_FREQ=1000000,STABLE...
+Compiling module xil_defaultlib.input_conditioning_subsystem(CLK...
+Compiling module xil_defaultlib.downcounter(PERIOD=10000)
+Compiling module xil_defaultlib.quad_decoder
+Compiling module xil_defaultlib.setpoint_control_default
+Compiling module xil_defaultlib.p_controller(OUT_WIDTH=9,OUT_MAX...
+Compiling module xil_defaultlib.position_controller_subsystem(CL...
+Compiling module xil_defaultlib.downcounter(PERIOD=3)
+Compiling module xil_defaultlib.pwm(WIDTH=8)
+Compiling module xil_defaultlib.motor_drive
+Compiling module xil_defaultlib.motor_interface_subsystem(CLK_FR...
+Compiling module xil_defaultlib.seven_segment_digit_selector
+Compiling module xil_defaultlib.digit_multiplexor
+Compiling module xil_defaultlib.seven_segment_decoder
+Compiling module xil_defaultlib.seven_segment_display_subsystem
+Compiling module xil_defaultlib.position_to_degrees_default
+Compiling module xil_defaultlib.bin_to_bcd
+Compiling module xil_defaultlib.count_display_default
+Compiling module xil_defaultlib.angle_display_subsystem
+Compiling module xil_defaultlib.disk_top(CLK_FREQ=1000000,CTRL_F...
+Compiling module xil_defaultlib.tb_disk_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_disk_top_behav

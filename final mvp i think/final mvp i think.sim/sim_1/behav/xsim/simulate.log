@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+     after reset setpoint     0  position     0  display 0000 deg
+         +90 deg setpoint   512  position   515  display 0090 deg
+    +90 deg step overshoot 3 counts
+         -90 deg setpoint  -512  position  -515  display 0269 deg
+PASS tb_disk_top
+$finish called at time : 3902999500 ns : File "C:/ENEL453/MVP/ENEL453_MVP_Spinning_Disk/tb/tb_disk_top.sv" Line 286
+INFO: xsimkernel Simulation Memory Usage: 21220 KB (Peak: 21220 KB), Simulation CPU Usage: 17264 ms
